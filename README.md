@@ -37,10 +37,15 @@ Edit .dockerignore and remove or comment out the following line:
 
 
 target/
+
 🔹 Step 3: Install Java 17 Runtime :
-sudo apt update
+
+sudo apt update 
+
 sudo apt install openjdk-17-jre-headless
+
 sudo update-alternatives --config java
+
 Choose Java 17 when prompted.
 
 🔹 Step 4: Build the Project with Maven
