@@ -273,3 +273,7 @@ pipeline {
 
 
 
+
+IMPORTANT COMMAND:
+
+kubectl port-forward --address 0.0.0.0 service/petshop  30007:80
