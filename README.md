@@ -277,3 +277,5 @@ pipeline {
 IMPORTANT COMMAND:
 
 kubectl port-forward --address 0.0.0.0 service/petshop  30007:80
+run port forward in background :
+nohup kubectl port-forward --address 0.0.0.0 service/petshop 30007:80 > petshop-portforward.log 2>&1 &
