@@ -16,7 +16,7 @@
 
 name: SonarCloud
 
-on:
+# on:
   push:
     branches:
       - master
