@@ -16,7 +16,7 @@
 
 name: Sonatype
 
-on:
+#on:
   push:
     branches:
       - master
